@@ -1,0 +1,19 @@
+Tareas_19_04_16
+-Correjir el envio de coordenadas de la Interfaz al Robot
+-Revisar el calculo de integracion LATITUD LONGITUD, identificar el error de calculos en decimales.
+-Fijar antena GPS.
+-Fijacion de IMU.
+-Ver la compra de caja de paso pequeña para que incluya:
+*GPS + 3DR COMUNICACTION
+*POSIBLEMENTE SE PUEDA COLOCAR ADENTRO TB EL IMU.
+
+---
+20_04_16
+*Envio de comandos remotos y recepcion de datos de control.
+*Prueba del cambio de "maximo_rpm" Hay problemas al cargar el codigo al C1 cuando esta operando con C2 y C3, se requiere apagar el sistema - Sacar el USB y volver a intentar cargar el codigo. 
+
+*Programa de test para envio de comandos de movimiento con el joystick y recepcion en la PC de la orientacion, posicion y otras variables
+El C1 se utilizará como sensor de dichas variables y puente para envio de los comandos del JOYSTICK desde el XBEE-C1-C3.
+
+*En el mando JOYSTICK , se coloco el cable RX hacia el arduino(CSN - 8) desde el DOUT XBEE(2)
+cable TX hacia el arduino(CE - 7) desde el DIN XBEE(3)

@@ -1,0 +1,50 @@
+C1-->C2
+Lat - Lon - Yaw - U - otro
+
+Trama en bytes:
+x,Lata,Latb,Latc,Latd,Lona,Lonb,Lonc,Lond,Yaw,U,y
+
+*otro: velocidad
+*Yaw: Se probará enviando solo un byte, ya que no es un valor critico en el monitoreo.
+
+*U es solo un valor on/off , puede ser 1(detecto) y 2(no detecto), ya que cero se puede confundir con un valor por defecto de la variable.
+
+*Otro, tambien se considerará un byte. Por ahora se está considerando la velocidad.
+
+Punto de prueba
+Lat : -12.024647
+Lon : -77.047725
+--------------------------------------------------
+Trama de C2-->SCADA
+Se esta midiendo:
+  Serial2.print((char)hum_amb);
+  Serial2.print((char)temp_amb);
+  Serial2.print((char)rad_sol);
+  Serial2.print((char)hum_sue);
+  Serial2.print((char)i_tot);
+  Serial2.print((char)v_tot);
+  Serial2.print((char)nivel_tank);
+
+Entonces la total sería:
+x,Lata,Latb,Latc,Latd,Lona,Lonb,Lonc,Lond,Yaw,U,i_tot,v_tot,nivel_tank,hum_amb,temp_amb,rad_sol,hum_sue,y
+
+-----------------------------------------------------
+*Avances:
+-Tramas en los ardunios C1 y C2 casi listas.
+-SCADA con tracking listo.
+-Comunicacion de datos de C1-C2 y C2-SCADA listo.
+-Pruebas satistactorias pero con un delay de 2segundos.
+-creacion programas C2_SECUENCIA2 y C1_C2_TEST.
+
+
+*Falta por hacer:
+-Probar en SCADA base de datos y richtextbox los datos de los sensores.
+-Probar con el gps E imu 
+-Probar con el codigo oficial del C1 y enviar tambien la trayectoria a seguir desde el SCADA al C1.
+-Dibujar la trayectoria sobre el SCADA.
+-Hacer modulito de lectura de corriente y voltaje que entre como entradas analogicas al C2.
+-Hacer deteccion de error de trama de llegada en el SCADA con un checksum.
+-Hacer las tareas del 18_05_16
+
+
+

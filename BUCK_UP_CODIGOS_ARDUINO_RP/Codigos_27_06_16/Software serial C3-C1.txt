@@ -1,0 +1,8 @@
+EN C1:
+Software serial
+TXM : 53(receptor)
+RXM : 52(transmisor)
+
+EN C3:
+tx1-TXM
+rx1-RXM

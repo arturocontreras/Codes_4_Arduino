@@ -1,0 +1,15 @@
+-3dr rf testeados, funcionan bien los 2.
+-Se detecto problema en placa C1 debido a no conectar a tierra, se generan voltajes diferentes y peligrosos. Si se juntaba con la tierra del otro circuito en la alimentacion de 3.3V se media 10V. Se soldo la union de tierras en la posicion del jumper y ahora ya esta mejor.
+
+-Prueba de la alimentacion del GPS resulto OK, mapeo de pines del cable, ver block de notas.
+
+-Revision de codigos ARDUINO, el "IMU_GPS_20_04_16_testeador" esta habilitado para recibir comandos de movimiento(a,s,w,d,q) y ademas enviar por el XBEE el estado de sensores.Es el adecuado para las pruebas sin GPS y control remoto de movimiento.
+
+-El archivo "IMU_GPS_20_04_16_testeador2" esta habilitado para recibir las coordendas del GE y seguir el algoritmo de control enviando los comandos de monitoreo al XBEE ---> es el mas optimo una vez que funcione el GPS.
+
+
+***************Tareas que vienen***********************
+-Probar la calibracion del IMU, encima del ROBOT ya que hay zonas que se nota la descalibración.
+
+-Lectura y prueba de la toma de datos de sensores agricolas y del sistema por el ARDUINO C2.
+-Programacion de la secuencia de tareas y codigos de test para el sistema de pulverizacion.

@@ -1,0 +1,3 @@
+-Prueba de control de velocidades OK! . Se probo hasta 30rpm
+-Software serial C1-C3 para envio de comandos del XBEE
+-Envio de coordenas del interfaz al C1, presenta problemas para muchos datos.

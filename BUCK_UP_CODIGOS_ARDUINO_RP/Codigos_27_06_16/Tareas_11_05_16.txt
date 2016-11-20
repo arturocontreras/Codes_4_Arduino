@@ -1,0 +1,50 @@
+********************PUCP********************
+Tema de investigacion, diagnostico de fallos en el Motor SI del auto(Perdidad de potencia y golpeteos). Ordenar el modelamiento matematico y hacer pruebas en Simulink Matlab
+
+********************TESIS - INIFIM*********************
+
+******Comprar*****
+
+Comprar tanque
+Tornillos para las abrazaderas de las mangueras.
+
+*Navegacion
+
+-Acomodar el codigo para control de orientacion. 
+El setpoint de orientacion sera enviado desde la PC y en el C1 tiene que estar el codigo limpio para solo control de orientacion.
+
+
+*C3 Tareas
+-Fumigacion
+
+Probar: el transmisor de presion,valvula de alivio.
+
+Hacer pruebas conjuntas controlando desde el Arduino
+Armar codigos de prueba para la prueba de electrovalvulas,con ultrasonicos y transmisor de presion.
+
+
+-Adquision de datos
+
+Probar sensores: Panel solar + Sensores de humedad suelo + Sensor temperatura y humedad ambiental.
+
+Revisar el PCB para saber si no falta nada en el conexionado.
+Optimizar las mediciones para que no tomen mucho tiempo computacional y se pueda enviar facilmente al SCADA.
+
+
+*SCADA
+
+-Revisar la recepcion de datos de los sensores, los datos de sensores ambientales y 
+
+los datos de monitoreo de la navegacion.
+
+-Acomodar la vista de la INTERFAZ para el area de la chancha de la FIM, planear el 
+
+recorrido que debe ejecutar el robot.x
+
+-Solucionar el problema de que no se guardan las coordenadas en el autopath de la 
+
+interfaz.
+
+-En el modo de control remoto del movimiento del robot, probar el envio de comandos 
+
+hacia el robot(a,w,s,d,q) ya que se ve algo facil de implementar.x

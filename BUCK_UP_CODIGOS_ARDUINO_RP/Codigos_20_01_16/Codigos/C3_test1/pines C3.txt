@@ -1,0 +1,23 @@
+---M1
+
+M1F 7  x
+M1B 6  x
+I1  A3
+
+---M2
+
+M2F 5   x
+M2B 4   x solo a 976Hz
+I2  A2
+
+---M3
+
+M3F  11 x
+M3B  10 x
+I3   A1
+
+---M4
+
+M4F 9  x
+M4B 8  x
+I4  A0  

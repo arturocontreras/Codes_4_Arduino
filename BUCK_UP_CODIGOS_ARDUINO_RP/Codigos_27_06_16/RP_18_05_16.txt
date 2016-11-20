@@ -1,0 +1,26 @@
+*****Se realizó:::::::::::::::
+-Instalación de una boquilla al circuito.
+-Fijacion de los elementos del circuito hidraulico a la base de madera, ademas de agregar teflon donde sea necesario.
+-Prueba del sistema de bombeo con la boquilla, activacion de electroválvula
+-Prueba de la base de madera del circuito hidraulico, sobre el robot y determinación de espacios:
+*La fijacion se realizarpa con cintillos y unos angulos en la parte inferior.
+
+-Se sacó el tablero del robot, y se Visualizo el tanque con la bomba encima. Conclusion se debe utilizar un circuito conectando con una L desde la salida del tanque a la bomba y así lograr que el tanque esté a un costado y la bomba en el otro.
+
+-Se marco la base de aluminio para luego hacer agujeros para fijar la bomba, el tanque y hacer unos agujeros para que salga el agua derramada o goteada.
+
+-Se fabrico y analizo posicion de la caja del sensor de ultrasonido en cada lado.
+
+-Se junto el modulo de sensores y con un solo cable se envio a C2, además se hizo la prueba de envio de los datos de los sensores a la interfaz. exitoso solo que luego de un rato salio error de buffer-- revisar ello.
+
+*****Falta:::::::::::::::
+
+-Hacer agujeros a la base de aluminio
+-Comprar manguera de 1/2" como la transparente para la otra barra (2m).
+-Comprar tanque y revisar los nuevos elementos necesarios para la tuberia del tanque hacia la bomba.
+-Fabricar el molex para la conexion de los ultrasonicos en las cajitas.
+-Comprar 6 metros de cable multipolar 5 o 4 hilos.
+-Sellar la bomba para que no siga fugando el agua, para ello probar ajustando más y agregar soldimix en los agujeros diametrales.
+-Probar valvula de alivio que retorne al tanque.
+-Leer transmisor de presion
+-Colocar las boquillas que faltan sobre las barras.

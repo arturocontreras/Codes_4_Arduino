@@ -1,0 +1,4 @@
+Reloj RTC I2C con Arduino
+http://www.tuelectronica.es/tutoriales/arduino/reloj-rtc-i2c-con-arduino.html
+
+http://forum.arduino.cc/index.php?topic=152577.0

@@ -1,0 +1,25 @@
+if(V1B == 0) setpoint[0] = 100 + V1F;
+        else setpoint[0] = V1B;
+        
+        if(V2B == 0) setpoint[1] = 100 + V2F;
+        else setpoint[1] = V2B;
+        
+        if (setpoint[0]>100){  //Hacia adelante
+        Setpoint_m1 = setpoint[0] -100;
+        }
+        
+        if (setpoint[1]>100){  //Hacia adelante
+        Setpoint_m2 = setpoint[1] -100;
+        }
+        
+        if (setpoint[0]<100){  //Hacia atrás
+        Setpoint_m1 = setpoint[0];
+        }
+        
+        if (setpoint[1]<100){ //Hacia atrás
+        Setpoint_m2 = setpoint[1];
+        }
+
+	Serial.print(Setpoint_m1);
+        Serial.print(" ");
+        Serial.println(Setpoint_m2)

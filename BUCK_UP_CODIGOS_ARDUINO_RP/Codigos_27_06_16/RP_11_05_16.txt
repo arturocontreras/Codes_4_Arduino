@@ -1,0 +1,5 @@
+*Se creo interface Robot Paracas_GE7 para realizar pruebas en la chancha1 FIM(mas cercana a la puerta 3).
+*Se centro la vista de los 2 mapas, de tareas y de tracking.
+
+*Se agrego el envio serial desde la interfaz de los comandos de movimiento awsd, pero se debe agregar un encabezado para que tambien se pueda enviar los comandos de abrir y cerrar las valvulas solenoide. %Revisar los encabezados propuestos en la redaccion del informe
+

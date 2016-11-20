@@ -1,0 +1,51 @@
+
+//************************************RECEPCION SET_POINT******************************************************************************
+     if(Serial3.available()) {
+      // get the new byte:
+     
+     int inChar = (char)Serial3.read(); 
+     Serial.println(inChar);
+     
+      if (inChar == 49) {
+      Serial3.println("set_point = 0");
+      set_point = 40;
+      start = true;
+      } 
+      else if (inChar == 50){
+      Serial3.println("set_point = 90");
+      set_point = 90;
+      start = true;;
+      } 
+      else if (inChar == 51){
+      Serial3.println("set_point = 180");
+      set_point = 180;
+      start = true;
+      } 
+      else if (inChar == 52){
+      Serial3.println("set_point = 270");
+      set_point = 270;
+      start = true;
+      
+      } 
+      else if (inChar == 53){
+      Serial3.println("STOP");
+      start = false;
+      
+      } 
+
+      else if (inChar == 54){
+      Serial3.println("Ki = 0");
+      Ki = 0;
+      } 
+
+      else if (inChar == 55){
+      Serial3.println("Ki = 1");
+      Ki = 1;
+      } 
+
+      else if (inChar == 56){
+      Serial3.println("Ki = 2 ");
+      Ki = 2;
+      } 
+
+    }

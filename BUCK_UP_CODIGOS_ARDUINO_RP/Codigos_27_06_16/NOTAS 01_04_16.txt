@@ -1,0 +1,10 @@
+-Funciona la INTERFAZ DEL ROBOT
+-Colocar Encoder al robot
+-Probar el Control de Velocidades
+
+......
+
+-Armar el pulverizador, pedir pautas ak Ing.
+-Armar con Segama la bomba DC.
+-Colocar antena de GPS y fijar el IMU.
+-

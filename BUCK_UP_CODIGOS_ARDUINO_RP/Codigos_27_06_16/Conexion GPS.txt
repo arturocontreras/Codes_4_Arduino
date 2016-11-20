@@ -1,0 +1,12 @@
+Conexion GPS
+***En jumper :
+blanco -- rx
+azul -- tx
+rojo -- V+
+amarillo -- 3.3v
+
+En cable hacia C1:
+blanco -- V+
+negro  -- GND
+marron  -- rx
+azul -- tx
