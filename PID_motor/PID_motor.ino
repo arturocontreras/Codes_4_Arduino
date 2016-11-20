@@ -1,4 +1,4 @@
-
+﻿
 int ibyte;
 int velocidades[2];
 int m1a=0;
@@ -53,7 +53,7 @@ void setup() {
   pinMode(10, OUTPUT);   //m2a
   pinMode(11, OUTPUT);   //m1r
   pinMode(12, OUTPUT);   //m1a
-  SetTunings(100, 1, 10);
+  SetTunings(100, 2, 10);
 }
 
 void loop() {
